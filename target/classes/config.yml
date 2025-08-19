@@ -1,0 +1,64 @@
+availability: '&cThis command is only available to the player.'
+no-permission: '&cYou have no permission'
+unbreakable-lore1: "Use '/as list' to delete"
+unbreakable-lore2: "this type of armor stand."
+invulnerable-lore: 'Making an ArmorStand unbreakable'
+stand-broken-error: '&cYour armor stand was broken by someone!'
+#
+#Menu Titles
+#WARNING: Titles should be different from each other! And they should be different from the existing menu titles!
+#         Otherwise, plugin will be broken!!!
+#         You can at least change the color codes.
+#
+list: '&4List of your armor stands'
+stand-deletion: '&9Delete this Armor Stand?'
+main-menu: '&2&lArmorStand menu'
+armor-menu: '&3Choose some Armor'
+hand-menu: 'Select Items for Hands'
+confirm-creation-menu: '&9Complete an Armor Stand?'
+confirm-deletion-menu: '&9Delete an Armor Stand?'
+
+#Chat Messages
+create-msg: '&6&l[ASGUI] &a&lArmor Stand created!'
+delete-msg: '&6&l[ASGUI] &c&lArmor Stand deleted!'
+#Hand Menu Chat Messages
+hands-done-msg: '&6&l[ASGUI] &aHands done!'
+hand-item-select-msg: '&6&l[ASGUI] &eSelect an item in your inventory'
+hand-item-selected-msg: '&6&l[ASGUI] &aItem selected!'
+#Main Menu Chat Messages
+set-arms-msg: '&6&l[ASGUI] &aArms Added'
+set-glow-msg: '&6&l[ASGUI] &aAdded Glow'
+set-base-msg: '&6&l[ASGUI] &aAdded Base'
+set-invulnerable-msg: '&6&l[ASGUI] &fArmorStand is Invulnerable now'
+set-visible-msg: '&6&l[ASGUI] &fArmorStand is Visible now'
+remove-arms-msg: '&6&l[ASGUI] &cArms Removed'
+remove-glow-msg: '&6&l[ASGUI] &cGlow Removed'
+remove-base-msg: '&6&l[ASGUI] &cBase Removed'
+remove-invulnerable-msg: '&6&l[ASGUI] &fArmorStand is Vulnerable now'
+remove-visible-msg: '&6&l[ASGUI] &fArmorStand is Invisible now'
+#Armor Chat Messages
+added-armor: '&6&l[ASGUI] &a%armor% is on'
+removed-armor: '&6&l[ASGUI] &c%armor% removed'
+#
+#Item Names
+#WARNING: Names should be different from each other! And they should be different from the existing names of the items!
+#         Otherwise, plugin will be broken!!!
+#         You can at least change the color codes.
+#
+custom-as-item: 'Custom Armor Stand'
+delete-stand-item: '&cDelete'
+go-back-item: '&aGo back'
+create-item: '&a&oComplete & Create'
+delete-item: '&c&oCancel creation'
+arms-item: '&e&oArms'
+glow-item: '&f&oGlow'
+armor-item: '&b&oArmor'
+base-item: '&d&oBase'
+hand-item: '&b&oHands'
+invulnerable-item: '&f&oInvulnerability'
+visible-item: '&f&oVisibility'
+hand-left-item: '&bLeft Hand'
+hand-right-item: '&bRight Hand'
+done-item: '&a&oDone'
+confirm-yes-item: '&aYES'
+confirm-no-item: '&cNO'

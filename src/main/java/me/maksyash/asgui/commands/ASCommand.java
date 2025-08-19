@@ -10,8 +10,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
-import java.util.ResourceBundle;
 
 public class ASCommand implements CommandExecutor, TabExecutor {
 
@@ -23,8 +21,6 @@ public class ASCommand implements CommandExecutor, TabExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-        ResourceBundle rb = ResourceBundle.getBundle("asgui", new Locale("", ""));
-
         if (sender instanceof Player) {
             Player p = (Player) sender;
             if (p.hasPermission("asgui.command")) {
@@ -39,9 +35,9 @@ public class ASCommand implements CommandExecutor, TabExecutor {
             }
         } else if (sender instanceof BlockCommandSender) {
             BlockCommandSender cb = (BlockCommandSender) sender;
-            cb.sendMessage(ChatColor.translateAlternateColorCodes('&', rb.getString("availability")));
+            cb.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getString("availability")));
         } else
-            System.out.println(ChatColor.translateAlternateColorCodes('&', rb.getString("availability")));
+            System.out.println(ChatColor.translateAlternateColorCodes('&', plugin.getString("availability")));
         return true;
     }
 

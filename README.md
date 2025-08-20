@@ -1,3 +1,6 @@
+Download plugin: https://drive.google.com/file/d/1OT1OxCfCznmURVFWMwGxNYh9NwuxFkSi/view?usp=sharing
+Minecraft Server version required: Spigot 1.16
+
 <img width="824" height="622" alt="1menu" src="https://github.com/user-attachments/assets/8e5ad76f-d82e-45d5-a57f-e43f3aa27872" />
 <img width="747" height="759" alt="2armor" src="https://github.com/user-attachments/assets/ba0fe12c-befa-4438-b8b9-692b2a16b7af" />
 <img width="735" height="580" alt="3hands" src="https://github.com/user-attachments/assets/7f5fc333-a466-42ab-aec5-be34abe9b994" />
